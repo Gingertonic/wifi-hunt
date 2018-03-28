@@ -1,0 +1,4 @@
+#! /usr/bin/env ruby
+require './lib/wifi_hunt'
+
+WifiHunt::CLI.new.call

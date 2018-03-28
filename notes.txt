@@ -1,0 +1,24 @@
+wifi-hunt gem Wishlist!
+
+Goal: User can enter their location (country > region > city) and return local WiFi hotspots
+
+Flow:
+
+- user types in wifi-hunt
+- program starts:
+  "Hi there! Are you looking for some WiFi goodness? Which country are you looking for?"
+  "If you came here by mistake, just type exit!"
+- (lists countries)
+- user enters country
+  "Great, and which city will you be needing to connect in?"
+- (lists cities)
+  "Well, there's loads/quite a few/not too many in your area. Here they are!"
+- (lists WiFi spots)
+
+  "You might want to take a note of any potentials"
+  "Then let me know if you'd like to do next! Just type 'search again' or 'exit'."
+
+- If search again,
+  "No problem, where would you like to check this time?"
+(-)(lists countries)
+  etc.
